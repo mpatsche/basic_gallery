@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+figure {
+	margin: 0;
+}
+img {
+	display: block;
+	width: 100%;
+}
+
+/* Header */
+.masthead {
+	padding: 0 1em;
+	text-align: center;
+	border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+/*--------------------------------------------------------------
+Cards:
+--------------------------------------------------------------*/
+
+.cards {
+	margin: 1em auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+.cards a {
+	display: block;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+.caption {
+	padding: 1em;
+	font-size: 90%;
+	color: black;
+}
+
+.caption-title {
+	margin: 0;
+	font-size: 1.4em;
+	line-height: 1em;
+}
+
+.caption p {
+	margin-top: .5em;
+	margin-bottom: 0;
+}
+
+.cards a:focus .caption,
+.cards a:hover .caption {
+	background: hsl(0, 0%, 97%);
+}
+.cards a:focus,
+.cards a:hover {
+	outline: 1px solid hsl(0, 0%, 80%);
+}
+
+/*--------------------------------------------------------------
+CSS Grid layout for wider screens: 
+
+*** TODO: Create the media queries ***
+--------------------------------------------------------------*/
